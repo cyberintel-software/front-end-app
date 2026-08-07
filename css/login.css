@@ -108,3 +108,16 @@ body {
   opacity: 0.6;
   cursor: not-allowed;
 }
+
+.reset-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.25rem;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.reset-link:hover {
+  text-decoration: underline;
+}
